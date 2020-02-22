@@ -34,7 +34,86 @@
         "/demo_goindex/": {
             "funcName": "gdrive_goindex",
             "spConfig": {
-                "password": "index",
+                "password": "index",{
+  "G_CONFIG": {
+    "admin_password": "admin",
+    "render_name": "w.w",
+    "site_name": "OnePoint Demo",
+    "site_title": "OnePoint Demo-Test",
+    "site_icon": "https://ukuq.github.io/onepoint/favicon.png",
+    "site_keywords": "OnePoint",
+    "site_description": "OnePoint description-Test\nThree-taile-dragon",
+    "site_script": "",
+    "site_readme": "Nothing here!\nTest",
+    "proxy": [
+      "https://proxy.onesrc.workers.dev/"
+    ]
+  },
+  "DRIVE_MAP": {
+    "/demo_sharepoint/": {
+      "funcName": "onedrive_sharepoint",
+      "spConfig": {
+        "shareUrl": "https://lovelearn-my.sharepoint.com/:f:/g/personal/admin_share_onesrc_cc/Es6CMetI4fJCr4GqWZ3uvA0BEnzJxxb4CU-iQr04VYomLQ?e=C9K35U",
+        "root": ""
+      }
+    },
+    "/demo_linux/": {
+      "funcName": "linux_scf",
+      "spConfig": {
+        "root": ""
+      }
+    },
+    "/demo_goindex/": {
+      "funcName": "gdrive_goindex",
+      "spConfig": {
+        "password": "index",
+        "cfurl": "https://goindex.onesrc.workers.dev"
+      }
+    },
+    "/demo_onedrive/": {
+      "funcName": "onedrive_graph",
+      "spConfig": {
+        "refresh_token": "OAQABAAAAAACQN9QBRU3jT6bcBQLZNUj7qYv3YSeiMsEu9BaICGzevCs5Fh8UDBFaDp0DdAA_vse2HYPIjcTS27BJb_Vh_FBj6gXv7Xf37SpLyiw6I8GMofyMUM7PpjbJdIuaA7QRunZKijQxEGSDnLPj-GoVrlnMlsyxRgYptnNuciTxRLiwzO67B-_TxAdU5RTyhLSVhSOORYmTDfrZolR5KtIVvqMztUAs1-kMUZAXOEiqBBHO_arzD3Z35yAocoXsiBi1-NdNGz9agVYLzOhnV3xzwIp_3FLkQbXom4tJpLQCtsR-g_1izairu2JALzYq0rDDhL1w225YJi0yS93Fq96tfwJDtgshe8et0q9YMIRxwaW5eK1mDJBQkmJGgm39AGjRmNW2SNiZPdgqIapi6cJzVqnB-a-ctp6mW4p4o_p8kgMhFJGSdAOR_RT6J0zsBt1dbVyvO_xaeh0jkPi6v0N_Frku3uYWPvpSEjQ3e-F8GWmN3Wr9QGNHLwAVVNRL3urvLKXmRZ-yVZfE1xlqys4loqBrg50kcUOWeWhG-60PaO1hTQgxL28mnNc02QZHGBP3Y_72HsTJZWRneVFh-L6N7kwaktoIV6yxC7ocnW6rHpWPW5efujc9U-ZYaTwUaevYC7SOVdA-LnnTw-ydGtNLghM5jTaQR8k6-mgo0v7gi32yzoNDHhFQeKJptBlyb9vdzviFfJMtkZj3-uQy1kHtDAs6cfwOPUlENnRhIpWvxqFxYfkBKvhtWBOm4C_MJdDuHc9SojLkOByI5lwrFU7FAmI-IAA",
+        "oauth": 0
+      }
+    },
+    "/demo_password_123/": {
+      "funcName": "onedrive_sharepoint",
+      "spConfig": {
+        "shareUrl": "https://lovelearn-my.sharepoint.com/:f:/g/personal/admin_share_onesrc_cc/Es6CMetI4fJCr4GqWZ3uvA0BEnzJxxb4CU-iQr04VYomLQ?e=C9K35U",
+        "root": "/image"
+      },
+      "password": "123"
+    },
+    "/": {
+      "funcName": "system_phony",
+      "spConfig": {
+        "admin": "请不要删除此项"
+      }
+    },
+    "/demo_phony/": {
+      "funcName": "system_phony",
+      "spConfig": {
+        "list": {
+          "/": [
+            "https://ukuq.github.io/onepoint/log.md",
+            "https://ukuq.github.io/hello-word/README.md",
+            "https://ukuq.github.io/onepoint/favicon.png",
+            "http://www.w3school.com.cn/i/horse.ogg",
+            "http://www.w3school.com.cn/i/movie.mp4",
+            "http://www.w3school.com.cn/i/movie.ogg"
+          ]
+        }
+      }
+    }
+  },
+  "DOMAIN_MAP": {
+    "110.11.110.11": {
+      "domain": "www.example.com",
+      "path": "/point"
+    }
+  }
+}
                 "cfurl": "https://goindex.onesrc.workers.dev"
             }
         },
